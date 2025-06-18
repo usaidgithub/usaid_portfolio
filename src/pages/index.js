@@ -242,16 +242,16 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-12 items-start"> {/* Changed items-center to items-start for better top alignment */}
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
-                  Hello! I'm Usaid Sayed, a passionate developer crafting digital experiences.
+                  Hello! I&apos;m Usaid Sayed, a passionate developer crafting digital experiences.
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-                  I'm a passionate full-stack developer and computer engineering student with hands-on experience in building dynamic and responsive web applications. I specialize in the React ecosystem, Node.js, Python, and modern web technologies, with a strong focus on crafting clean user interfaces and robust backend systems.
+                  I&apos;m a passionate full-stack developer and computer engineering student with hands-on experience in building dynamic and responsive web applications. I specialize in the React ecosystem, Node.js, Python, and modern web technologies, with a strong focus on crafting clean user interfaces and robust backend systems.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-                  Over the past few years, I've worked on multiple impactful projects through hackathons, freelance work, and personal development, building real-world applications that solve meaningful problems. I'm constantly exploring new technologies, contributing to collaborative projects, and refining my skills through continuous learning.
+                  Over the past few years, I&apos;ve worked on multiple impactful projects through hackathons, freelance work, and personal development, building real-world applications that solve meaningful problems. I&apos;m constantly exploring new technologies, contributing to collaborative projects, and refining my skills through continuous learning.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-                  Whether it's leading a team in a national hackathon or building AI-integrated platforms, I thrive on turning complex ideas into functional, user-friendly solutions.
+                  Whether it&apos;s leading a team in a national hackathon or building AI-integrated platforms, I thrive on turning complex ideas into functional, user-friendly solutions.
                 </p>
                 <div className="flex flex-wrap gap-3 mt-8"> {/* Adjusted gap and added margin-top */}
                   <span className="px-5 py-2 bg-blue-100 dark:bg-blue-800/30 text-blue-800 dark:text-blue-300 rounded-full text-md font-medium shadow-sm">
@@ -316,8 +316,6 @@ const Portfolio = () => {
                 style={{ animationDelay: `${index * 80}ms` }} // Slightly faster staggered animation
               >
                 <div className="mb-2">
-                  {/* Make sure your SkillIcon component is styled to look good.
-                If it's just an SVG, consider adding w-16 h-16 classes to it. */}
                   <SkillIcon name={skill.name} color={skill.color} />
                 </div>
                 <h3 className="font-semibold text-lg text-gray-800 dark:text-gray-200">
@@ -419,9 +417,8 @@ const Portfolio = () => {
           </div>
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg">
-              I'm always open to connecting! Whether it’s a project, job opportunity, or just a tech chat — feel free to reach out via email or connect with me on LinkedIn and GitHub.
+              I&apos;m always open to connecting! Whether it&apos;s a project, job opportunity, or just a tech chat — feel free to reach out via email or connect with me on LinkedIn and GitHub.
             </p>
-
             <div className="space-y-4 text-left md:text-center md:flex md:flex-col md:items-center">
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-6 w-6 text-blue-600" />
